@@ -17,6 +17,12 @@ public class Main {
         System.out.println(" your first month interest is: " + firstMonthInterest);
         System.out.println("your interest after first month is: " + balanceAfterFirstMonth);
 
+        double secondMonthInterest = balanceAfterFirstMonth * monthlyInterestRate;
+        double balanceAfterSecondMonth = balanceAfterFirstMonth + secondMonthInterest;
+
+        System.out.println("your credit card interest after two months is: " + secondMonthInterest);
+
+
 
 
     }
